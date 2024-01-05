@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title>My Forms HTML Program </title>
+<link rel="icon" href="/Users/babithasujanamaroju/Desktop/Studies/HTML Classes/HTMLImagesNotes/favi.png"type="image/x-icon" >
+
+	</head>
+
+	<body bgcolor= #FFE4C4  >
+	<a href = "/Users/babithasujanamaroju/Desktop/Studies/HTML%20Classes/Formtags.html"><img src="/Users/babithasujanamaroju/Desktop/Studies/HTML Classes/HTMLImagesNotes/favi.png"/ width=60 height=60 ></a>SkullMaster <br/>
+
+
+		<h1 align="center">Signup form</h1>
+		<form method="POST" action="first.html"> 
+		<fieldset>
+		<legend><b> Personal Information</b> </legend>
+		<i>Enter your name: </i><br/>
+		<input type="text" name="username"/><br/>
+		<i>Enter Age: </i><br/>
+		<input type="number" name="Age"/></i><br/>
+		<label for="gender"><i>Gender:</i> </label>
+		<input type="radio" id="gender" name="gender" value="male"/><i>Male</i>
+		<input type="radio" id="gender" name="gender" value="female"/><i>Female</i><br/>
+		</fieldset>
+		
+		<fieldset>
+		<legend> <b>Contact Information </b></legend>
+		<i>Enter Email:</i><br/>
+		<input type="email" name="email"/></i><br/>
+
+		<i>Create Password: </i> <br/>
+		<input type="password" placeholder="Enter your password" name="cpassword"/><br/>
+		Enter Description: <br/><textarea rows="" cols=""> </textarea> <br/>
+
+		</fieldset>
+		<fieldset>
+		<legend> <b>Other Information </b> </legend>
+		<p><i>Select Options:</i></p>
+		<select name="dropdown">
+		<option value="a"><i>a</i> </option>
+		<option value="b" selected><i>b </i></option>
+		<option value="c"><i>c</i> </option>
+		</select><br/>
+		
+		
+		<p><i>Select Some Items:</i></p>
+		<input type="checkbox" name="abc" value="on"/><i>abc</i><br/>
+		<input type="checkbox" name="xyz" value="on"/><i>xyz</i><br/>
+		<input type="checkbox" name="pqr" value="on"/><i>pqr</i><br/>
+		
+		<p><I>Upload Image</i></p>
+		<input type="file" name="resume" accept="image/*"/>
+		<p><i>Upload Video</i> </p>
+		<input type="file" name="resume" accept="video/*"/>
+		<p><i>Upload Doc</i> </p>
+		<input type="file" name="resume" accept="document/*"/>
+		</fieldset>
+
+		<p> </p> <a href="formsubmitted.html" ><input type ="button" name="SignUp" value="SignUp"/></a>
+
+		<input type ="button" name="Cancel" value="Cancel"/><br/>
+		
+
+		</form>
+	</body>
+
+</html>
